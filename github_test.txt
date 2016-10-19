@@ -1,0 +1,195 @@
+
+Planning@Student08 MINGW64 /c/xampp/htdocs/anamaihp
+$ ls
+array.php     forloop.php  index.php   oop.php
+arraykey.php  if1.php      nbproject/  while.php
+
+Planning@Student08 MINGW64 /c/xampp/htdocs/anamaihp
+$ ls -l
+total 10
+-rw-r--r-- 1 Planning 197121 421 Oct 17 13:29 array.php
+-rw-r--r-- 1 Planning 197121 477 Oct 17 13:31 arraykey.php
+-rw-r--r-- 1 Planning 197121 269 Oct 17 12:01 forloop.php
+-rw-r--r-- 1 Planning 197121 250 Oct 17 11:52 if1.php
+-rw-r--r-- 1 Planning 197121 912 Oct 17 11:52 index.php
+drwxr-xr-x 1 Planning 197121   0 Oct 17 11:17 nbproject/
+-rw-r--r-- 1 Planning 197121 668 Oct 17 13:57 oop.php
+-rw-r--r-- 1 Planning 197121 499 Oct 17 11:55 while.php
+
+Planning@Student08 MINGW64 /c/xampp/htdocs/anamaihp
+$ git status
+fatal: Not a git repository (or any of the parent directories): .git
+
+Planning@Student08 MINGW64 /c/xampp/htdocs/anamaihp
+$ git version
+git version 2.10.1.windows.1
+
+Planning@Student08 MINGW64 /c/xampp/htdocs/anamaihp
+$ pwd
+/c/xampp/htdocs/anamaihp
+
+Planning@Student08 MINGW64 /c/xampp/htdocs/anamaihp
+$ git add .
+fatal: Not a git repository (or any of the parent directories): .git
+
+Planning@Student08 MINGW64 /c/xampp/htdocs/anamaihp
+$ git init
+Initialized empty Git repository in C:/xampp/htdocs/anamaihp/.git/
+
+Planning@Student08 MINGW64 /c/xampp/htdocs/anamaihp (master)
+$ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        array.php
+        arraykey.php
+        forloop.php
+        if1.php
+        index.php
+        nbproject/
+        oop.php
+        while.php
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Planning@Student08 MINGW64 /c/xampp/htdocs/anamaihp (master)
+$ git version
+git version 2.10.1.windows.1
+
+Planning@Student08 MINGW64 /c/xampp/htdocs/anamaihp (master)
+$ git add .
+warning: LF will be replaced by CRLF in array.php.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in arraykey.php.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in forloop.php.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in if1.php.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in index.php.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in oop.php.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in while.php.
+The file will have its original line endings in your working directory.
+
+Planning@Student08 MINGW64 /c/xampp/htdocs/anamaihp (master)
+$ git commint -m "fist commit"
+git: 'commint' is not a git command. See 'git --help'.
+
+Did you mean this?
+        commit
+
+Planning@Student08 MINGW64 /c/xampp/htdocs/anamaihp (master)
+$ git commint -m "first commit"
+git: 'commint' is not a git command. See 'git --help'.
+
+Did you mean this?
+        commit
+
+Planning@Student08 MINGW64 /c/xampp/htdocs/anamaihp (master)
+$ git commit -m "first commit"
+[master (root-commit) 0597692] first commit
+ Committer: Student <Student>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 10 files changed, 198 insertions(+)
+ create mode 100644 array.php
+ create mode 100644 arraykey.php
+ create mode 100644 forloop.php
+ create mode 100644 if1.php
+ create mode 100644 index.php
+ create mode 100644 nbproject/private/private.properties
+ create mode 100644 nbproject/project.properties
+ create mode 100644 nbproject/project.xml
+ create mode 100644 oop.php
+ create mode 100644 while.php
+
+Planning@Student08 MINGW64 /c/xampp/htdocs/anamaihp (master)
+$ git remote add origin https://github.com/supachaink/naja.git
+
+Planning@Student08 MINGW64 /c/xampp/htdocs/anamaihp (master)
+$ git config -- global user. "supachaink@hotmail.com"
+error: key does not contain a section: global
+
+Planning@Student08 MINGW64 /c/xampp/htdocs/anamaihp (master)
+$ git config -- global user.email "supachaink@hotmail.com"
+error: key does not contain a section: global
+
+Planning@Student08 MINGW64 /c/xampp/htdocs/anamaihp (master)
+$ git config --global user.email "supachaink@hotmail.com"
+
+Planning@Student08 MINGW64 /c/xampp/htdocs/anamaihp (master)
+$ git config --global user.name "supachaink"
+
+Planning@Student08 MINGW64 /c/xampp/htdocs/anamaihp (master)
+$ git remote add origin https://github.com/supachaink/naja.git
+fatal: remote origin already exists.
+
+Planning@Student08 MINGW64 /c/xampp/htdocs/anamaihp (master)
+$ git push -u origin master
+
+
+Planning@Student08 MINGW64 /c/xampp/htdocs/anamaihp (master)
+$ ^C
+
+Planning@Student08 MINGW64 /c/xampp/htdocs/anamaihp (master)
+$ git push -u origin master
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Username for 'https://github.com/': supachaink
+Counting objects: 14, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (13/13), done.
+Writing objects: 100% (14/14), 2.62 KiB | 0 bytes/s, done.
+Total 14 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), done.
+To https://github.com/supachaink/naja.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+
+Planning@Student08 MINGW64 /c/xampp/htdocs/anamaihp (master)
+$ git push -u origin master
+Branch master set up to track remote branch master from origin.
+Everything up-to-date
+
+Planning@Student08 MINGW64 /c/xampp/htdocs/anamaihp (master)
+
+
+
+
+https://github.com/supachaink/naja
+
+https://github.com/supachaink/naja.git
+
+or create a new repository on the command line
+
+
+Copy to clipboard 
+echo "# naja" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/supachaink/naja.git
+git push -u origin master
+
+
+or push an existing repository from the command line
+
+
+Copy to clipboard 
+git remote add origin https://github.com/supachaink/naja.git
+git push -u origin master
